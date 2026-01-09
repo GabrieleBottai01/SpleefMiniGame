@@ -1,0 +1,15 @@
+name: SpleefMiniGame
+version: '1.0-SNAPSHOT'
+main: com.spata01.spleef.SpleefMiniGame
+api-version: '1.20'
+# AGGIUNGI QUESTA PARTE SOTTO:
+commands:
+  checkadmin:
+    description: Test comando
+    usage: /checkadmin <nome>
+  creamondo:
+    description: Genera un mondo piatto
+    usage: /creamondo
+  spleef:
+    description: Comandi arena
+    usage: /spleef <create|delete|start>

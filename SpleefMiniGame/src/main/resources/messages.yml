@@ -1,0 +1,34 @@
+# File dei messaggi di SpleefMiniGame
+# Supporta formattazione MiniMessage (es. <red>, <bold>, <gradient:red:blue>)
+# Usa {player}, {count}, {winner}, {size} come variabili dove serve.
+
+prefix: "<gradient:#00AAFF:#0055AA><bold>SPLEEF</bold></gradient> <dark_gray>»</dark_gray> "
+
+admin:
+  no-console: "<red>Questo comando è solo per giocatori."
+  no-permission: "<red>Non hai il permesso."
+  reload: "<green>Configurazione e messaggi ricaricati!"
+  invalid-args: "<red>Uso corretto: /spleef <create|delete|start|reload> [arg]"
+
+arena:
+  already-exists: "<red>Esiste già un'arena! Devi prima distruggerla."
+  created: "<gradient:green:aqua>Arena {size}x{size} creata correttamente!</gradient>"
+  deleted: "<yellow>Arena rimossa dal mondo."
+  not-found: "<red>Nessuna arena presente o comando errato."
+  regenerated: "<green>Arena rigenerata. Nuova partita imminente..."
+  lobby-countdown: "<aqua>Lobby in {count}"
+  lobby-subtitle: "<gray>Tutti al centro..."
+  ready: "<yellow>Pronti! Digita <white>/spleef start</white> per iniziare."
+
+game:
+  not-ready: "<red>Il gioco è già attivo o l'arena non esiste."
+  no-players: "<red>Nessun giocatore in zona!"
+  countdown-title: "<bold><{color}>{count}</bold>"
+  countdown-subtitle: "<gray>Preparati a correre..."
+  start-title: "<bold><green>VIA!</green></bold>"
+  eliminated-title: "<gradient:red:dark_red><bold>☠ ELIMINATO ☠</bold></gradient>"
+  eliminated-subtitle: "<gray>Sei caduto nella lava (fredda)!"
+  eliminated-chat: "<red>{player} <gray>è stato disintegrato!"
+  victory-title: "<gradient:#FFD700:#FFFF00><bold>♛ VITTORIA ♛</bold></gradient>"
+  victory-subtitle: "<gray>Campione: <gold>{winner}"
+  victory-chat: "   <gray>Il vincitore è:</gray> <gradient:#FFD700:#FFAA00><bold>{winner}</bold></gradient>"
